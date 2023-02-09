@@ -22,8 +22,7 @@ public class ArithimaticOperators {
         System.out.println("The Sum of the two numbers is: " + Sum);
         System.out.println("The Difference of the two numbers is: " + Difference);
         System.out.println("The Product of the two numbers is: " + Product);
-        System.out.println("The Quotient of the two numbers is: " + Quotient);4
-        
+        System.out.println("The Quotient of the two numbers is: " + Quotient);
     }
     
 }
