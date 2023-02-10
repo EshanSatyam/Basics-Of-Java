@@ -1,3 +1,5 @@
+/* Java Program to display a digits from number */
+
 import java.util.Scanner;
 
 public class displaydigit {
@@ -26,7 +28,7 @@ public class displaydigit {
 
            System.out.print(digit);
 
-           //Removing the last digit by dividing it to 10
+           //Removing the last digit by dividing it by 10
 
            num = num/10;
         }
