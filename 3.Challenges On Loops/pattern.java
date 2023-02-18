@@ -11,26 +11,16 @@ public class pattern {
         System.out.println("Enter the number");
         int n = sc.nextInt();
 
-        // //FOR ROWS i FOR COLUMNS j
-        // for( i = 1; i<=n; i++){
+        //FOR ROWS i FOR COLUMNS j
+        for( i = 1; i<=n; i++){
 
-        //     for(j = 1; j<=i; j--){
-        //         System.out.print(" * ");
-        //     }
-
-        //     System.out.println("  ");
-        // }
-
-        for (i = 1; i<=n; i++){
-
-            for(j = n; j>=n; j--){
-
-                System.out.print("* ");
+            for(j = 1; j<=i; j--){
+                System.out.print(" * ");
             }
 
-            System.out.println();
+            System.out.println("  ");
         }
-       
-        }
+
+       }
     }
 
